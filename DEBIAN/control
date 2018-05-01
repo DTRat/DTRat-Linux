@@ -1,0 +1,10 @@
+Package: MaterialMix
+Priority: required
+Section: xfce
+Installed-Size: 11600
+Maintainer: uniqorn
+Architecture: amd64
+Version: 1.1
+Depends: curl, scrot, zenity
+Description: MaterialMix theme
+  MaterialMix icon theme
