@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Files
+Comment=Access and organize files
+Exec=rat
+Icon=org.gnome.Nautilus
+Terminal=false
+Type=Application
+Actions=new-window;
+X-Unity-IconBackgroundColor=#af4853
+OnlyShowIn=Unity;GNOME;
+
+[Desktop Action new-window]
+Exec=rat
